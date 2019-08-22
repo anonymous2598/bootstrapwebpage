@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="My Bootstrap Website">
+
+    <title>SmarTech</title>
+    <!-- google font api-->
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!--font awesome apis-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Link to Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--custom CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body><!--body starts-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="myNav">
+        <a class="navbar-brand" href="index.html" style="font-family: Dancing Script;"> SmarTech</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-label="Toggle navigation"
+            data-target="#onSmall">
+            <span class="navbar-toggler-icon"></span>
+        </button><!--end button for nav toggle-->
+
+        <div class="collapse navbar-collapse" id="onSmall"><!--collapse navbar start-->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown">
+                        Portfolio
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Projects</a>
+                        <a class="dropdown-item" href="#">Our Clients</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Innovation</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul><!--end list in nav bar-->
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Search">
+                <button class="btn btn-info" type="submit" id="search"> Search</button>
+            </form>
+        </div>
+    </nav>
+    <section id="cover"><!--cover section-->
+        <div id="cover-caption">
+            <div class="container-fluid">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1 style="font-family:  Dancing Script; color:rebeccapurple">Welcome!</h1><br>
+                </div>
+            </div>
+        </div>
+    </section><!--end cover section-->
+
+    <div class="container" id="myCarousel"><!--carousel begin-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselslide" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <h5 class="highlightbg"><mark>Kick Starting Your Project</mark>
+                                </h5>
+                            </div>
+                            <img src="img/programming.jpg" alt="programming">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h5 class="highlightbg"><mark>Professional Photoshop
+                                        Editing</mark>
+                                </h5>
+                            </div>
+                            <img src="img/woman-camera.jpg" alt="woman-camera">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h5 class="highlightbg"><mark>IT maintenance </mark>
+                                </h5>
+                            </div>
+                            <img src="img/stage.jpg" alt="work station">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselslide" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselslide" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div><!--carousel end-->
+    <hr>
+    <!--cards section-->
+    <div class="container">
+        <section class="row">
+            <div class="col-sm-6 d-flex align-items-stretch">
+                <div class="card mb-3 border-success">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/banjo.jpg" class="card-img" alt="stars">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Just a beautiful view</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <hr>
+                                <p style="text-align: center"><small>Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 d-flex align-items-stretch">
+                <div class="card mb-3 border-info">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/mic.jpg" class="card-img" alt="mic">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Stand out from the crowd</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                                    consequuntur ipsa tempore non adipisci consectetur adipisicing elit.</p>
+                                <hr>
+                                <p style="text-align: center"><small>Last updated 1 year ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--tabbable section start-->
+    <div class="container pb-3" id="checkmate">
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Tabbable content</h3>
+            <div class="tabbable">
+                <ul class=" nav nav-tabs">
+                    <li class="nav-item"><a class="nav-link active" href="#tab1" data-toggle="tab">Section 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab2" data-toggle="tab">Section 2</a></li>
+                </ul>
+                <div class="tab-content" style="margin-top: 20px;">
+                    <div class="tab-pane active" id="tab1">
+                        <h4>Enjoy this video <small>from Youtube</small></h4>
+                        <!-- embed links-->
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" height="280px" width="530px;" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+                            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </div>
+                        <hr>
+                        <p><strong>You've been Rick Rolled!!.</strong> Sapiente!</p>
+                        <p>Pitchfork banjo marfa, asymmetrical mustache hexagon farm-to-table biodiesel. Truffaut
+                            gluten-free franzen vaporware stumptown cronut. </p>
+
+                    </div>
+                    <!--end tab1 pane-->
+                    <div class="tab-pane" id="tab2">
+                        <h4>Feels! <small>xD</small></h4>
+                        <blockquote class="twitter-tweet" data-lang="en">
+                            <p lang="en" dir="ltr">im naturally funny cause my whole life is a joke</p>&mdash; Pakalu
+                            Papito (@pakalupapitow) <a
+                                href="https://twitter.com/pakalupapitow/status/1008787697828278272?ref_src=twsrc%5Etfw">
+                                June 18, 2018</a>
+                        </blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <hr>
+                        <p>Man braid meggings vape poke. Yuccie pabst pitchfork artisan. Adaptogen green juice actually,
+                            cold-pressed man braid vinyl poutine craft beer.
+                            Kogi vice activated charcoal knausgaard, umami sustainable deep v cold-pressed. </p>
+                        
+                        <hr>
+                        <a href="#myModal" role="button" class="btn btn-info" data-toggle="modal">Click for modal window</a>
+                        <div class="modal fade" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4>A window magically appears</h4>
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <!--end modal header-->
+                                    <div class="modal-body">
+                                        <p>Hey there Delilah. what's it like in new york city</p>
+                                        <p><small class="text-muted">This is a dummy form</small></p>
+                                        <form class="form-horizontal">
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="inputName">Name</label>
+                                                <div class="col-lg-10">
+                                                    <input class="form-control" id="inputName" placeholder="Name"
+                                                        type="text">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label" for="inputPhone">Phone</label>
+                                                <div class="col-lg-10">
+                                                    <input class="form-control" id="inputPhone" placeholder="Phone"
+                                                        type="text">
+                                                </div>
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+                                    <!--end modal-body-->
+                                    <div class="modal-footer">
+                                        <button class="btn btn-default" data-dismiss="modal"
+                                            type="button">Close</button>
+                                        <button class="btn btn-success" type="button">Save changes</button>
+                                    </div>
+                                    <!--end modal-footer-->
+                                </div>
+                                <!--end modal-content-->
+                            </div>
+                            <!--end modal-dialog-->
+
+                        </div>
+                        <!--end modal-->
+                    </div>
+                    <!--end tab2 pane-->
+                </div>
+                <!--end tab content-->
+
+            </div>
+            <!--end tabbable-->
+        </div>
+        <!--end col-sm-6-->
+        <div class="col-sm-6">
+            <div class="jumbotron">
+                
+            </div><!--end jumbotron-->
+        </div><!--end col-sm-6 second one-->
+    </div>
+    <!--end row-->
+    </div>
+    <!--footer start-->
+    <footer class="page-footer bg-dark pt-3 text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h6>Copyright &copy; 2019
+                        <hr>Sandeep</h6>
+                </div>
+                <div class="col-sm-4">
+                    <h6>About Us</h6>
+                    <hr>
+                    <p>Resolution diminution conviction so mr at unpleasing simplicity no.
+                        No it as breakfast up conveying earnestly immediate principle.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Navigation</h6>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#">Home</a></li>
+                        <li><a class="text-white" href="#">Services</a></li>
+                        <li><a class="text-white" href="#">Links</a></li>
+                        <li><a class="text-white" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Follow Us</h6>
+                    <hr><!--custom font awesome icons-->
+                    <ul class="list-unstyled form-inline">
+                        <li><i class="fa fa-facebook-official" style="font-size:25px;color:blue"></i></li>
+                        <li><i class="fa fa-twitter" style="font-size:25px;color:#1da1f2;padding-left: 10px;"></i></li>
+                        <li><i class="fa fa-linkedin-square"
+                                style="font-size:25px;color:#0077B5;padding-left: 10px;"></i></li>
+                        <li><i class="fa fa-instagram" style="font-size:25px;color: #bc2a8d;padding-left: 10px;"></i>
+                        </li>
+                        <li><i class="fa fa-google-plus" style="font-size:25px;color:#db4a39;padding-left: 10px;"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Coded by Sandeep</h6>
+                </div>
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+
+
+
+    <!--end container-->
+    <!--Jquery first then bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>

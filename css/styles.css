@@ -1,0 +1,52 @@
+/* Custom CSS styles go here */
+html,body{
+    height:100%;
+}
+
+#cover
+{
+    background: url('../img/cover.jpg') center center no-repeat;
+    background-size: cover; 
+    color: white;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+
+}
+#search
+{
+    margin-left: 5px;
+}
+
+
+#cover-caption h1
+{
+    font-family: Arial, sans-serif;
+
+}
+#myCarousel
+{
+    margin-top: 1rem;
+}
+#myCarousel img{
+    /* height: 590px; */
+    width: 100%; 
+}
+.highlightbg mark{
+    background-color: rgb(236, 236, 236);
+}
+hr{
+    background-color: white;
+}
+#tab1 h4{
+    margin-bottom: 20px;
+}
+.jumbotron
+{
+    background-image: url('../img/spiderweb.jpg');  
+    overflow: hidden;
+    background-size: cover;
+    height: 100%;
+}
